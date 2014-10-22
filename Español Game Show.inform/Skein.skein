@@ -1,0 +1,1565 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0xa59beb0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xa59beb0" />
+  <item nodeId="node-0xa59beb0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You&apos;re currently competing on a Spanish game show. The object of the game is to pick the right key (which are named after conjugations or vocabulary) and unlock the door. To know what the question is you must examine the door. To examine the door type in &quot;x ______&quot;. Always examine the door before taking the conjugations. When playing the game, only give simple commands. For example, you can type &quot;toma corro&quot; and the corro key will be put in your bag. The name of the doors are corresponding with the room it leads to. For example, when you&apos;re in the Presente room the door is called Future door. However, the description of the door will correspond with the name of the room.  Also, past one (door) is for the preterite and past two is for the imperfecto (door). 
+Español Game Show
+Conjugation and Vocabulary Practice por Allison Smith
+Release 1 / Serial number 141022 / Inform 7 build 6L02 (I6/v6.33 lib 6/12N) SD
+
+Presente
+You&apos;re currently surrounded by keys (conjugations) that unlock the door! Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Presente! Tu necesitarás encontrar la llave que abre la puerta. Nos divertimos jugando el concurso televisivo. The Futuro is to the east. Juan es una persona.
+
+Puedes ver a Future door, a Juan, a Juega, a Quepo, a Estoy, a Sale y a Pinta aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="8">NO</temporary>
+    <children>
+      <child nodeId="node-0xa5f6860" />
+      <child nodeId="node-0xa5f6780" />
+      <child nodeId="node-0xa5f59f0" />
+      <child nodeId="node-0xa5f5980" />
+      <child nodeId="node-0xa5f5830" />
+      <child nodeId="node-0xa5f57c0" />
+      <child nodeId="node-0xa5f5750" />
+      <child nodeId="node-0xa5f56e0" />
+      <child nodeId="node-0xa5f5590" />
+      <child nodeId="node-0xa5f4790" />
+      <child nodeId="node-0xa5f46d0" />
+      <child nodeId="node-0xa5f4680" />
+      <child nodeId="node-0xa59bfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59bfb0">
+    <command xml:space="preserve">toma sale</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="733">YES</temporary>
+    <children>
+      <child nodeId="node-0xa59c000" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59c000">
+    <command xml:space="preserve">abre future con sale</command>
+    <result xml:space="preserve"> Quitas el cerrojo a future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="733">YES</temporary>
+    <children>
+      <child nodeId="node-0xa59c050" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59c050">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Future door)
+
+Futuro
+Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Futuro! Tu necesitarás encontrar la llave que abre la puerta. The Preterite is to the south.
+
+Puedes ver a Future door, a Past One, a Correrás, a Dibujarás, a Lavará, a Leeré y a Pondré aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="733">YES</temporary>
+    <children>
+      <child nodeId="node-0xa59c1a0" />
+      <child nodeId="node-0xa59c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59c0c0">
+    <command xml:space="preserve">x w</command>
+    <result xml:space="preserve">No ves nada en especial al mirar en esa dirección.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="733">YES</temporary>
+    <children>
+      <child nodeId="node-0xa59c130" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59c130">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go back, amiga.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="732">YES</temporary>
+  </item>
+  <item nodeId="node-0xa59c1a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">No puedes ir por ahí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="724">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f4680">
+    <command xml:space="preserve">toma todo</command>
+    <result xml:space="preserve">no way josé
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f46d0">
+    <command xml:space="preserve">x sale</command>
+    <result xml:space="preserve">No observas nada especial en Sale.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="721">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4720" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4720">
+    <command xml:space="preserve">x future door</command>
+    <result xml:space="preserve">Ella____la clase ir a dormir.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="720">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f4790">
+    <command xml:space="preserve">habla to juan</command>
+    <result xml:space="preserve">( a Juan)
+No has provocado ninguna reacción.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4800" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4800">
+    <command xml:space="preserve">talk to juan</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4930" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4930">
+    <command xml:space="preserve">habla a juan</command>
+    <result xml:space="preserve">Hint: Oppuesto de entras.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa59c230" />
+    </children>
+  </item>
+  <item nodeId="node-0xa59c230">
+    <command xml:space="preserve">toma sale</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4980" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4980">
+    <command xml:space="preserve">abre future door con sale</command>
+    <result xml:space="preserve"> Quitas el cerrojo a future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f49f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f49f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Future door)
+
+Futuro
+Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Futuro! Tu necesitarás encontrar la llave que abre la puerta. The name of the doors are corresponding with the room it leads to. The Preterite is to the south.
+
+Puedes ver a Future door, a Past One Door, a Correrás, a Dibujarás, a Lavará, a Leeré y a Pondré aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4a60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4a60">
+    <command xml:space="preserve">x past one door</command>
+    <result xml:space="preserve">Yo______ mi libro en la estantería.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4ad0">
+    <command xml:space="preserve">toma Leeré</command>
+    <result xml:space="preserve">Cogido.
+
+
+
+    *** ¿Por qué? Necesitarás pensar. ***
+
+
+
+¿Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del último comando?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4b40">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Futuro
+[Retrocediendo al turno anterior.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4bb0">
+    <command xml:space="preserve">toma Pondré</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4870" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4870">
+    <command xml:space="preserve">abre past one door con Pondré</command>
+    <result xml:space="preserve"> Quitas el cerrojo a past one door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f48c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f48c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">No puedes ir por ahí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4da0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go back, amiga.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4e10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">No puedes ir por ahí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4e80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(abriendo primero Past One Door)
+
+Preterite
+Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Preterite! Tu necesitarás encontrar la llave que abre la puerta. Past one (door) is preterite and past two is imperfecto (door). The name of the doors are corresponding with the room it leads to. The Imperfecto is to the east.
+
+Puedes ver a Past One Door, a Past Two Door, a Fui, a Conduje, a Comí, a Tuvo y a Nadé aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4ef0">
+    <command xml:space="preserve">toma conduje</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4f60">
+    <command xml:space="preserve">abre past two con conduje</command>
+    <result xml:space="preserve"> Quitas el cerrojo a past two door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4fd0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Past Two Door)
+
+Imperfecto
+Warning: Don&apos;t take the wrong key. Think about the question.Always examine the door first. ¡Hola, tu eres en el Imperfecto! Tu necesitarás encontrar la llave que abre la puerta. Past one (door) is preterite and past two is imperfecto (door). The name of the doors are corresponding with the room it leads to. Vocabulary is to the north.
+
+Puedes ver a Past Two Door, a Vocab Door, a Amaban, a Morían, a Montaban, a Corrían y a Caminaban aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5040">
+    <command xml:space="preserve">toma amaban</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f50b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f50b0">
+    <command xml:space="preserve">abre vocab door with amaban</command>
+    <result xml:space="preserve">Intenta de nuevo, porque sólo te pude entender: abrir  Vocab Door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5120">
+    <command xml:space="preserve">abre vocab door con amaban</command>
+    <result xml:space="preserve"> Quitas el cerrojo a vocab door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5190">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(abriendo primero Vocab Door)
+
+Vocabulary
+Warning: Don&apos;t take the wrong key. Think about the question. ¡Hola, tu eres en el Preterite! Tu necesitarás encontrar la llave que abre la puerta. The name of the doors are corresponding with the room it leads to. The Final Showcase (Mix) is to the east.
+
+Puedes ver a Vocab Door, a Mix Door, a Sandía, a Ojo, a Policía, a Oso y a Invierno aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5200">
+    <command xml:space="preserve">toma oso</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4c20">
+    <command xml:space="preserve">Abre mix door con oso</command>
+    <result xml:space="preserve"> Quitas el cerrojo a mix door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4c90">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Mix Door)
+
+Final Showcase
+¡Finalmente! Tuviste a la final. Tu necesitarás abrir el baúl ganar. Warning: Don&apos;t take the wrong key. Think about the question.
+
+Puedes ver a Mix Door, a Chest (cerrado), a Escucho, a Manzana, a Besaba, a Cantará y a Zapato aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f4d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f4d00">
+    <command xml:space="preserve">toma zapato</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f54b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f54b0">
+    <command xml:space="preserve">Abre chest con zapato</command>
+    <result xml:space="preserve"> Quitas el cerrojo a chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="33">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5520" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5520">
+    <command xml:space="preserve">abre chest</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f5590">
+    <command xml:space="preserve">toma juega</command>
+    <result xml:space="preserve">Cogido.
+
+
+
+    *** ¿Por qué? Necesitarás pensar. ***
+
+
+
+¿Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del último comando?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5600" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5600">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">El uso de &quot;deshacer&quot; no está permitido en este juego.
+
+¿Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del último comando?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5670">
+    <command xml:space="preserve">terminar</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f56e0">
+    <command xml:space="preserve">go e</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1317">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f5750">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about Future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f57c0">
+    <command xml:space="preserve">x juan</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f5830">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening Future door)
+
+Futuro
+You can see Future door, Past One, Correrás, Dibujarás, Lavará, Leeré and Pondré here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f58a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f58a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5910" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5910">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening Past One)
+You can&apos;t, since Past One leads nowhere.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f5980">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">No lleva nada.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="258">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f59f0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5a60" />
+      <child nodeId="node-0xa5f66a0" />
+      <child nodeId="node-0xa5f5b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5b40">
+    <command xml:space="preserve">take sale </command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5bb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5bb0">
+    <command xml:space="preserve">take a sale</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5270">
+    <command xml:space="preserve">tomo sale</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f52e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f52e0">
+    <command xml:space="preserve">toma sale</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5350">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve"> Llevas:
+  a Sale
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f53c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f53c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5430">
+    <command xml:space="preserve">abre</command>
+    <result xml:space="preserve">( Sale)
+No es algo que pueda abrirse.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5c20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5c20">
+    <command xml:space="preserve">abre puerta</command>
+    <result xml:space="preserve">No veo eso que dices.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5c90">
+    <command xml:space="preserve">abierto la perta</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5d00">
+    <command xml:space="preserve">abre future door</command>
+    <result xml:space="preserve">Está cerrado con llave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5d70">
+    <command xml:space="preserve">desbloquea future door con sale</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5de0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5de0">
+    <command xml:space="preserve">abre future door con sale</command>
+    <result xml:space="preserve"> Quitas el cerrojo a future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5e50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Future door)
+
+Futuro
+Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Futuro! Tu necesitarás encontrar la llave que abre la puerta. The Preterite is to the south.
+
+Puedes ver a Future door, a Past One, a Correrás, a Dibujarás, a Lavará, a Leeré y a Pondré aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5ec0">
+    <command xml:space="preserve">toma pondré</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5f30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5f30">
+    <command xml:space="preserve">x  past one</command>
+    <result xml:space="preserve">Yo______ mi libro en la estantería.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5fa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(abriendo primero Past One)
+Está cerrado con llave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6010" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6010">
+    <command xml:space="preserve">sur</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6080" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6080">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(abriendo primero Past One)
+Está cerrado con llave.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f60f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f60f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">No puedes ir por ahí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6160" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6160">
+    <command xml:space="preserve">a</command>
+    <result xml:space="preserve">No conozco ese verbo.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f61d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f61d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">No puedes ir por ahí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6240" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6240">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go back, amiga.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f62b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f62b0">
+    <command xml:space="preserve">abre past one con pondré</command>
+    <result xml:space="preserve"> Quitas el cerrojo a past one.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6320" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6320">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(abriendo primero Past One)
+
+Preterite
+Warning: Don&apos;t take the wrong key. Think about the question. Always examine the door first. ¡Hola, tu eres en el Preterite! Tu necesitarás encontrar la llave que abre la puerta. The Imperfecto is to the east.
+
+Puedes ver a Past One, a Past Two, a Fue, a Condujo, a Comí, a Tuvo y a Nadé aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6390" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6390">
+    <command xml:space="preserve">x past two</command>
+    <result xml:space="preserve">En la manaña, yo_____a la playa en mi coche.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6400" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6400">
+    <command xml:space="preserve">toma Comí</command>
+    <result xml:space="preserve">Cogido.
+
+
+
+    *** ¿Por qué? Necesitarás pensar. ***
+
+
+
+¿Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del último comando?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6470" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6470">
+    <command xml:space="preserve">toma condujo</command>
+    <result xml:space="preserve">por favor, responde a alguna de arriba.
+
+¿Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del último comando?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f64e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f64e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Preterite
+[Retrocediendo al turno anterior.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6550" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6550">
+    <command xml:space="preserve">toma condujo</command>
+    <result xml:space="preserve">Cogido.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f65c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f65c0">
+    <command xml:space="preserve">abre past two con condujo</command>
+    <result xml:space="preserve"> Quitas el cerrojo a past two.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6630" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6630">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(abriendo primero Past Two)
+
+Imperfecto
+Warning: Don&apos;t take the wrong key. Think about the question.Always examine the door first. ¡Hola, tu eres en el Imperfecto! Tu necesitarás encontrar la llave que abre la puerta. Vocabulary is to the north.
+
+Puedes ver a Past Two, a Vocab, a Amaban, a Morían, a Montaban, a Corrían y a Caminaban aquí.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="290">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f66a0">
+    <command xml:space="preserve">toma all</command>
+    <result xml:space="preserve">No veo eso que dices.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6710" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6710">
+    <command xml:space="preserve">toma todo</command>
+    <result xml:space="preserve">no way josé
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f5a60">
+    <command xml:space="preserve">take</command>
+    <result xml:space="preserve">What do you want to take?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="191">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f5ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f5ad0">
+    <command xml:space="preserve">all</command>
+    <result xml:space="preserve">no way josé
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="190">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f6780">
+    <command xml:space="preserve">x juega</command>
+    <result xml:space="preserve">jugar
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="739">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f67f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f67f0">
+    <command xml:space="preserve">x quepo</command>
+    <result xml:space="preserve">caber
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="738">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f6860">
+    <command xml:space="preserve">take sale</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6b00" />
+      <child nodeId="node-0xa5f68d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f68d0">
+    <command xml:space="preserve">unlock futuro question with sale</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6940" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6940">
+    <command xml:space="preserve">x futuro question</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f69b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f69b0">
+    <command xml:space="preserve">unlock door with sale</command>
+    <result xml:space="preserve">You unlock Future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6a20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6a20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Future door)
+
+Futuro
+Warning: If you choose the wrong key and try to unlock the door you will lose the game. ¡Hola, tu eres en el Futuro! Tu necesitarás encontrar la llave que abre la puerta. The Preterite is to the south.
+
+You can see Future door, Past One, Correrás, Dibujarás, Lavará, Leeré and Pondré here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="221">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6a90">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with Sale)
+That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="220">YES</temporary>
+  </item>
+  <item nodeId="node-0xa5f6b00">
+    <command xml:space="preserve">x future door</command>
+    <result xml:space="preserve">Ella____la clase ir a dormir.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6b70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6b70">
+    <command xml:space="preserve">x future</command>
+    <result xml:space="preserve">Ella____la clase ir a dormir.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6be0">
+    <command xml:space="preserve">x futuro</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6c50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6c50">
+    <command xml:space="preserve">x future door</command>
+    <result xml:space="preserve">Ella____la clase ir a dormir.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6cc0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">Ella____la clase ir a dormir.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6d30">
+    <command xml:space="preserve">unlock the future door with sale</command>
+    <result xml:space="preserve">You unlock Future door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6da0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">(first opening Future door)
+
+Futuro
+Warning: If you choose the wrong key and try to unlock the door you will lose the game. ¡Hola, tu eres en el Futuro! Tu necesitarás encontrar la llave que abre la puerta. The Preterite is to the south.
+
+You can see Future door, Past One, Correrás, Dibujarás, Lavará, Leeré and Pondré here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6e10">
+    <command xml:space="preserve">x past one</command>
+    <result xml:space="preserve">Yo______ mi libro en la estantería.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6e80" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6e80">
+    <command xml:space="preserve">take pondré</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6ef0">
+    <command xml:space="preserve">unlock past one with pondré</command>
+    <result xml:space="preserve">You unlock Past One.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6f60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6f60">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">(first opening Past One)
+
+Preterite
+Warning: If you choose the wrong key and try to unlock the door you will lose the game. ¡Hola, tu eres en el Preterite! Tu necesitarás encontrar la llave que abre la puerta. The Imperfecto is to the east.
+
+You can see Past One, Past Two, Fue, Condujo, Comí, Tuvo and Nadé here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f6fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f6fd0">
+    <command xml:space="preserve">x past two</command>
+    <result xml:space="preserve">En la manaña, yo_____a la playa en mi coche.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7040" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7040">
+    <command xml:space="preserve">take condujo</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f70b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f70b0">
+    <command xml:space="preserve">unlock past two with condujo</command>
+    <result xml:space="preserve">You unlock Past Two.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7120" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7120">
+    <command xml:space="preserve">go e</command>
+    <result xml:space="preserve">(first opening Past Two)
+
+imperfecto
+Warning: If you choose the wrong key and try to unlock the door you will lose the game. ¡Hola, tu eres en el Imperfecto! Tu necesitarás encontrar la llave que abre la puerta. Vocabulary is to the north.
+
+You can see Past Two, Vocab, Amaban, Morían, Montaban, Corrían and Caminaban here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7190" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7190">
+    <command xml:space="preserve">x vocab</command>
+    <result xml:space="preserve">Chicas ______ Justin Bieber antes 2014.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7200" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7200">
+    <command xml:space="preserve">take amaban</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7270" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7270">
+    <command xml:space="preserve">unlock vocab with amaban</command>
+    <result xml:space="preserve">You unlock Vocab.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f72e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f72e0">
+    <command xml:space="preserve">go w</command>
+    <result xml:space="preserve">You can&apos;t go back, amiga.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7350" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7350">
+    <command xml:space="preserve">gon</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f73c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f73c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening Vocab)
+
+Vocabulary
+Warning: If you choose the wrong key and try to unlock the door you will lose the game. ¡Hola, tu eres en el Preterite! Tu necesitarás encontrar la llave que abre la puerta. The Final Showcase is to the east.
+
+You can see Vocab, Mix, Sandía, Ojo, Policía, Oso and Invierno here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7430" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7430">
+    <command xml:space="preserve">x mix</command>
+    <result xml:space="preserve">¿Qué es bear en español?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f74a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f74a0">
+    <command xml:space="preserve">unlock mix with oso</command>
+    <result xml:space="preserve">(first taking Oso)
+You unlock Mix.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7510">
+    <command xml:space="preserve">take oso</command>
+    <result xml:space="preserve">You already have that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7580" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7580">
+    <command xml:space="preserve">unlock mix with oso</command>
+    <result xml:space="preserve">That&apos;s unlocked at the moment.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f75f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f75f0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7660" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7660">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">(first opening Mix)
+
+Final Showcase
+¡Finalmente! Tuviste a la final. Tu necesitarás abrir el baúl ganar.
+
+You can see Mix, Chest (closed), Escucho, Manzana, Besaba, Cantará and Zapato here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f76d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f76d0">
+    <command xml:space="preserve">take poner</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7740" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7740">
+    <command xml:space="preserve">take zapatos</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f77b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f77b0">
+    <command xml:space="preserve">take zapato</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7820" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7820">
+    <command xml:space="preserve">unlock chest with zapato</command>
+    <result xml:space="preserve">You unlock Chest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="184">YES</temporary>
+    <children>
+      <child nodeId="node-0xa5f7890" />
+    </children>
+  </item>
+  <item nodeId="node-0xa5f7890">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Chest, revealing Win.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="183">YES</temporary>
+  </item>
+</Skein>
