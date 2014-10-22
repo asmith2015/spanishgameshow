@@ -312,17 +312,27 @@ Section 8- Shortest Route
 [1. Toma sale
 2. Abre future door con sale
 
+<east>
+
 3. Toma Pondré
 4. Abre past one door con Pondré
+
+<south>
 
 5. Toma conduje
 6. Abre past two con conduje
 
+<east>
+
 7. Toma amaban
 8. Abre vocab door con amaban
 
+<north>
+
 9. Toma oso
 10. Abre mix door con oso
+
+<east>
 
 11. Toma zapato
 12. Abre chest con zapato
